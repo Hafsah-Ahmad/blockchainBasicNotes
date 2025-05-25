@@ -1,2 +1,74 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+                                BLOCKCHAIN NOTES
+What exactly is bockchain?
+    It is a distributed ledger of transactions that is constantly updated and reviewed. It enables peer to peer tranfer of assets without any intermediaries. It provides single source of truth. it is also known as DLT-distributed ledger technology.  It is IMMUTABLE. 
+
+    It was first created for bitcoin but now it is present in many fields like, goods transfer, remote service, identity management etc.
+
+    Key Features of Blockchain:
+    Decentralization= No central authority
+-   Immutability= Once data is recorded, it cannot be altered.
+-   Transparency=  Anyone can view the ledger (in public blockchains).
+-   Security= Uses cryptographic algorithms to protect data.
+
+    Advantages= greter trust
+                enhanced security
+                better traceability
+                increased effeciency
+                automated transactions
+
+   TYPES=   cryptocurrency only-----bitcoin etc
+            currency + business logic-----ethereum etc
+            business logic----linux hyperledger
+
+    CLAASSIFICATION= Public
+                     Private
+                     consortium (permissioned)
+                     (we can understand them by their names tho)
+
+    OPERATIONS OF BLOCKCHAIN=
+                    Validation of transactions
+                    gathering transactions for a BLOCK
+                    broadcasting valid transactions and block 
+                    concensus on next block creation
+                    chaining all blocks to create immutable chain/record
+
+    GENESIS BLOCK= first block in blockchain.
+    MINERS= powerful computers executing sotware programs defined by blockchain protoccol.
+ 
+    SMART CONTRACT=  a piece of self executing code deployed in a blockchain node. 
+                    resembles a class diagram in object oriented design. it has,
+                    data
+                    functions
+                    modifiers
+                    along with get or set functions
+    ACCOUNTS= two TYPES
+             EOA (externally owned accounts) controlled by private key.
+             CONTRACT ACCOUNT -controlled by code and can be activated by EOA.
+
+    OMMERS= miners that solved puzzle but didnt win are called ommers. they create blocks called ommer blocks and are added as side blocks to the main block.
+
+    ELIPTIC CURVE CRYPTO-ECC= this algorithm is used by ethereum for generating key pairs.
+    it is better and stronger than RSA algorithm.
+
+    HASHING= transforms and maps an arbitrary length of input data value to fixed lenngth value. It is a unique fingerprint of data. 
+    requirements= 
+                - algorithm should be one sided(can you make potatoes from mashed potatoes?)
+                -collision free (no two data sets map onto same hash value)
+    commom hashing algortihms= SHA-3, SHA-256 and KECCAK
+    TYPES= two
+         - simple hashing--when we have fixed number of data
+         - markle tree hashing--used when no. of items differ from block to block.
+
+    IN ETHEREUM, hash is used to generate
+               -accounts addresses
+               -digital signatures
+               -transaction hash
+               -state hash
+               -receipt hash
+               -block-header hash.
+
+
+
+
+hafsa ahmad
+25-05-2025.
